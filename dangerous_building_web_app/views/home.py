@@ -2,7 +2,7 @@ import streamlit as st
 import backend
 
 st.title("Dangerous Building Home Page", text_alignment= "center")
-st.image("assets/images/home_page_main_img.png", use_container_width=True)
+st.image("assets/images/home_page_main_img.png", width= "stretch")
 
 st.subheader("What is this website about?")
 st.markdown("This website shows the data of the number of dangerous buildings reported and recorded since 2021. All data is recorded by 311 and stored on [OpenDataPhilly](https://opendataphilly.org/)")

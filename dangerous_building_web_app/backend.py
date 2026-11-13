@@ -1,4 +1,7 @@
 import streamlit as st
+import pandas as pd
 
-def show_data():
-    return [1, 2, 3, 4]
+def create_df(file):
+    df = pd.read_csv(file)
+    return df
+
